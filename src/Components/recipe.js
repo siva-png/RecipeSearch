@@ -10,7 +10,7 @@ function Recipe (props){
       <span className="cad-author subtle">Recipe</span>
       <i className="fa fa-fire">{cal}</i>
       <h2 className="cad-title">{props.name}</h2>
-      <span className="cad-description subtle"><h6 className="text-danger">Steps For Cocking</h6>{props.inst}</span>
+      <span className="cad-description subtle"><h6 className="text-danger">Steps For Cooking</h6>{props.inst}</span>
       <div className="cad-read">
 
       {/* <!-- Button to Open the Modal --> */}
